@@ -1,8 +1,38 @@
 /* Lezioni dove vuoi tu section */
 
 @media screen and (max-width: 419px) {
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
   #lezioni .row > .left,
   #lezioni .row > .right {
+    width: 100%;
     float: none;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    display: inline-block;
+    background-color: #f2f2cd;
+    margin-right: none;
+    margin-left: none;
+    margin-top: 0px;
+  }
+
+  .row {
+    width: auto;
+    margin-top: 0;
+  }
+
+  h1 {
+    margin: 0px;
+  }
+
+  .container {
+    background-color: #f2f2cd;
+    width: 100%;
   }
 }
