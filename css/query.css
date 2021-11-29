@@ -1,0 +1,8 @@
+/* Lezioni dove vuoi tu section */
+
+@media screen and (max-width: 419px) {
+  #lezioni .row > .left,
+  #lezioni .row > .right {
+    float: none;
+  }
+}
