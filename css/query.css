@@ -7,6 +7,11 @@
     box-sizing: border-box;
   }
 
+  .container {
+    background-color: #f2f2cd;
+    width: 100%;
+  }
+
   #lezioni .row > .left,
   #lezioni .row > .right {
     width: 100%;
@@ -31,8 +36,19 @@
     margin: 0px;
   }
 
-  .container {
-    background-color: #f2f2cd;
+  #steps .row > .left,
+  #steps .row > .central,
+  #steps .row > .right {
     width: 100%;
+    float: none;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    display: inline-block;
+  }
+
+  #why.container.grey {
+    background-color: #f2f2cd;
   }
 }
